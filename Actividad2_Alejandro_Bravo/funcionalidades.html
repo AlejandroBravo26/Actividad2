@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Funcionalidades Lógicas</title>
+    <link rel="stylesheet" href="funcionalidades.css">
+</head>
+<body>
+    <div class="comparar">
+        <h2>Ingrese los números a comparar</h2>
+        <input type="number" id="numero1">
+        <input type="number" id="numero2">
+        <button onclick="compararNumeros()">Comparar</button>
+        <div id="resultadoComparacion"></div>
+      </div>
+    <hr>
+
+    <div class="mes">
+        <h2>Ingrese un número para consultar el mes</h2>
+        <input type="number" id="mes">
+        <button onclick="obtenerMes()">Obtener Mes</button>
+        <div id="resultadoMes"></div> 
+    </div>
+    <hr>
+
+    <div class="agregar">
+        <h2>Agrega un nombre a la lista</h2>
+        <input type="text" id="nombre">
+        <button onclick="agregarNombre()">Agregar</button>
+        <div id="listaNombres"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

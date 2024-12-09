@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Usuarios</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Usuarios</h1>
+        <form id="registroForm">
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" required>
+            <hr>
+            <label for="cedula">Cédula de Identidad:</label>
+            <input type="text" id="cedula" name="cedula" required>
+            <hr>
+            <label for="nombre">Nombres y Apellidos:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <hr>
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            <hr>
+            <label for="ciudad">Ciudad de Procedencia:</label>
+            <select id="ciudad" name="ciudad" required>
+                <option value="Quito">Quito</option>
+                <option value="Guayaquil">Guayaquil</option>
+                <option value="Cuenca">Cuenca</option>
+                <option value="Machala">Machala</option>
+                <option value="Manta">Manta</option>
+            </select>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
